@@ -1,0 +1,31 @@
+                                                            ANGULAR
+
+                                                     BANK APP IN ANGULAR
+                                    
+                                    FRONT END :- ANGULAR
+                                    BACK END :-Nodejs(Express)
+                                    DATABASE :-MongoDb
+
+    Basic building blocks
+
+1. Module:- To import 3rd party libraries
+2. Component:- To create html css and ts files
+-------------------------------------------------------------------------------------------------------------------------------------------------
+    Basic Commands
+
+1. create new project :- ng new projrct_name
+2. create a component :- ng g c component_name
+3. Run :- ng serve -o / ng serve --open
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+[1] Data Binding
+To share data inside the component
+ts - Components and html - view
+    1.1) One way data binding (ts->html or html ->ts file)
+        a)Component to value
+                a.1)String interpolation -{{expression}}
+                a.2)property binding -[attribute_name]="property"
+        b)View component
+                b.1)Event Binding -(event_name)="function name"
+                b.2)Event Binding using $event - (event_name)= "function name($event)"

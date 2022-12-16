@@ -1,0 +1,24 @@
+<div class="main">
+    <div class="left">
+        <h1>WELCOME TO BANK</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aspernatur officiis, quo cumque minus, blanditiis ut distinctio dolorem fuga aut atque aliquam, molestiae hic odit facilis ea ab excepturi. Culpa!</p>
+    </div>
+    <div class="right">
+        
+        <div class="content">
+            <div class="icon">
+                <img src="../../assets/82c811a3afd73c763d57fe8e80cc1777.png" alt=""><br>
+                
+
+            </div><br><br>
+            <h4>{{aim}}</h4>
+
+            <label for="" class="txt" id="reg_acno" >ACCOUNT NUMBER</label><br>
+            <input (change)="acnoChange($event)" type="text" class="input"[placeholder]="accountNo"><br><br><br>
+            <label for=""class="txt" id="reg_pswd">PASSWORD</label><br>
+            <input  (change)="pswdChange($event)" type="password"class="input"[placeholder]="password"><br>
+            <button class="btn" (click)="login()">LOGIN</button><br><br>
+            <a href="">forgot password..?</a> &nbsp;<a href="">sign up</a>
+        </div>
+    </div>
+</div>
